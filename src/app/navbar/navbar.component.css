@@ -1,0 +1,95 @@
+/* General styles for the navbar and boxes */
+.navbar,
+.container-fluid {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-brand {
+  line-height: 1;
+}
+
+#first-box,
+#second-box,
+#third-box,
+#last-box {
+  padding: 25px;
+  height: 100% !important;
+  display: flex;
+  align-items: center;
+}
+
+#first-box,
+#last-box {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#second-box {
+  border-right: 2px solid white;
+  border-top: 0;
+  border-bottom: 0;
+}
+
+#third-box {
+  border-top: 0;
+  border-bottom: 0;
+}
+
+/* Apply the same style for screens from 0px to 1000px */
+@media (max-width: 1000px) {
+  .navbar-nav {
+    display: flex;
+    flex-direction: column; /* Stack navbar items vertically */
+    align-items: center; /* Center the navbar items */
+    width: 100%; /* Ensure navbar takes full width */
+  }
+
+  .navbar-brand {
+    margin-bottom: 10px; /* Space out logo and navbar items */
+  }
+
+  #first-box,
+  #second-box,
+  #third-box,
+  #last-box {
+    padding: 20px; /* Reduce padding to fit items properly */
+    width: 100%; /* Make the boxes take full width */
+    border-left: 0; /* Remove left border for smaller screens */
+    border-right: 0; /* Remove right border for smaller screens */
+    text-align: center; /* Center the text */
+  }
+
+  #first-box {
+    border-top: 2px solid white; /* Add border to top for consistency */
+  }
+
+  #last-box {
+    border-bottom: 2px solid white; /* Add border to bottom for consistency */
+  }
+
+  /* Ensure navbar items do not overlap at small screen sizes */
+  .navbar-nav .nav-link {
+    padding: 10px; /* Reduce padding further for small screens */
+  }
+}
+
+/* For very small screens (max-width: 480px) */
+@media (max-width: 480px) {
+  #first-box,
+  #second-box,
+  #third-box,
+  #last-box {
+    padding: 10px; /* Further reduce padding */
+  }
+
+  .navbar-brand {
+    font-size: 18px; /* Adjust logo font size */
+  }
+
+  .navbar-nav .nav-link {
+    font-size: 14px; /* Adjust font size of navbar items */
+  }
+}
