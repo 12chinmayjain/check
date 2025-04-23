@@ -1,0 +1,63 @@
+/* Container for the About Me section */
+.about-me {
+    background-color: #f9f9f9;
+    padding: 50px 20px;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+  }
+  .highlight {
+    font-weight: 500; /* softer than bold (700) */
+    color: #644848;       /* or a gentle accent color */
+  }
+  
+  
+  .about-me h2 {
+    font-size: 2.5em;
+    color: #212529;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .about-me p {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    text-align: justify;
+    color: #555;
+  }
+  
+  .about-me p strong {
+    color: #212529;
+  }
+  
+  .about-me p em {
+    color: #007BFF;
+  }
+  
+  .city {
+    font-weight: bold;
+    color: #17a2b8;
+  }
+  
+  .highlight {
+    background-color: #e7f5ff;
+    padding: 0 5px;
+    border-radius: 4px;
+  }
+  
+  .hobby {
+    font-style: italic;
+    color: #28a745;
+  }
+  
+  /* Adding responsiveness */
+  @media (max-width: 768px) {
+    .about-me h2 {
+      font-size: 2em;
+    }
+  
+    .about-me p {
+      font-size: 1em;
+    }
+  }
+  

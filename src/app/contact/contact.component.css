@@ -1,0 +1,35 @@
+*{
+    background-color: black;
+}
+p{
+    color: white;
+    
+}
+.contact-footer {
+    height: 70px; /* Match approximate height of navbar */
+    background-color: #212529; /* Same as bg-dark */
+    color: white;
+    border-top: 2px solid #212529 !important; /* Forces your custom border to apply */
+  }
+  
+  .contact-footer p {
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 1000px) {
+    .contact-footer {
+      height: auto;
+      padding: 20px 0;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .contact-footer p {
+      font-size: 14px;
+    }
+  }
+  
