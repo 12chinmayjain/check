@@ -1,9 +1,0 @@
-{
-  "routes": {
-    "/check": {},
-    "/check/aboutme": {},
-    "/check/home": {},
-    "/check/projects": {},
-    "/check/skills": {}
-  }
-}
