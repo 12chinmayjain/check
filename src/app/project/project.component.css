@@ -2,7 +2,9 @@
 .projects {
     background-color: #f4f4f4;
     padding: 50px 20px;
-    font-family: 'Arial', sans-serif;
+    font-family: "Poiret One", sans-serif;
+  font-weight: 700;
+  font-style: normal;
   }
   
   .projects h2 {

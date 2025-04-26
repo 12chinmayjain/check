@@ -1,8 +1,10 @@
 /* Container for the About Me section */
 .about-me {
     background-color: #f9f9f9;
-    padding: 50px 20px;
-    font-family: 'Arial', sans-serif;
+    padding: 50px 10px;
+      font-family: "Itim", cursive;
+      font-weight: 400;
+      font-style: normal;
     color: #333;
   }
   .highlight {
@@ -19,7 +21,7 @@
   }
   
   .about-me p {
-    font-size: 1.1em;
+    font-size: 1.5em;
     line-height: 1.8;
     margin-bottom: 20px;
     text-align: justify;
