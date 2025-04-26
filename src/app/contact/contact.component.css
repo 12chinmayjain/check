@@ -10,6 +10,9 @@ p{
     background-color: #212529; /* Same as bg-dark */
     color: white;
     border-top: 2px solid #212529 !important; /* Forces your custom border to apply */
+    font-family: "Cinzel Decorative", serif;
+    font-weight: 600;
+    font-style: normal;
   }
   
   .contact-footer p {
